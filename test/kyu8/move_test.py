@@ -7,7 +7,3 @@ class MoveTestCase(unittest.TestCase):
         self.assertEqual(move.move(0, 4), 8)
         self.assertEqual(move.move(3, 6), 15)
         self.assertEqual(move.move(2, 5), 12)
-
-
-if __name__ == '__main__':
-    unittest.main()
